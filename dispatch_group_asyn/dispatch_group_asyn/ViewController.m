@@ -118,6 +118,7 @@
         NSTimeInterval endTime = endDate.timeIntervalSince1970;
         NSLog(@"endTime - startTime = %f",endTime - startTime);
     });
+    
 }
 
 //封装一个方法，传入一个url参数，返回一张网络上下载的图片
